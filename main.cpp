@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Course.h"
-#include "Menu.h"
+#include "Controller.h"
 using namespace std;
 
 
@@ -16,7 +16,7 @@ int main() {
 //    Course course1(courseType, courseName, credits, courseMeetTime, description);
 //    course1.printCourseInfo();
 
-    Menu();
+    Controller();
 
     return 0;
 }

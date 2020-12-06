@@ -3,4 +3,4 @@ project(CoursesOOP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CoursesOOP main.cpp Course.h Menu.h)
+add_executable(CoursesOOP main.cpp Course.h Controller.h)
