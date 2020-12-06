@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Course.h
+stdio.h
+-
+iostream
+-
+string
+-
+
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Menu.h
+Course.h
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Course.h
+
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/main.cpp
+iostream
+-
+string
+-
+Course.h
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Course.h
+Menu.h
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Menu.h
+

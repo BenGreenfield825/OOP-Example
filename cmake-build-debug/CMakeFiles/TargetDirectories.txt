@@ -1,0 +1,3 @@
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/cmake-build-debug/CMakeFiles/CoursesOOP.dir
+/cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/cmake-build-debug/CMakeFiles/edit_cache.dir
