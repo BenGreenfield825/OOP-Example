@@ -39,5 +39,3 @@ void Course::printCourseInfo() {
 
 #endif //COURSESOOP_COURSE_H
 
-//template style class that allows type to come from CourseType
-//handle info like time, credits, description, etc

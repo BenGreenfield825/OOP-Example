@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Controller.h
+bits/stdc++.h
+-
 Course.h
 /cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Course.h
 vector
@@ -23,10 +25,6 @@ string
 -
 
 /cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/main.cpp
-iostream
--
-string
--
 Course.h
 /cygdrive/c/Users/Ben/OneDrive - University of New Haven/PersonalProjects/C-C++/CoursesOOP/Course.h
 Controller.h

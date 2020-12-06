@@ -1,5 +1,3 @@
-#include <iostream>
-#include <string>
 #include "Course.h"
 #include "Controller.h"
 using namespace std;

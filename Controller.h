@@ -4,7 +4,7 @@
 
 #ifndef COURSESOOP_CONTROLLER_H
 #define COURSESOOP_CONTROLLER_H
-
+#include <bits/stdc++.h>
 #include "Course.h"
 #include <vector>
 #include <string>
@@ -31,7 +31,7 @@ void Controller::options() {
         cout << "| 1. View courses" << endl;
         cout << "| 2. Create a new course" << endl;
         cout << "| 3. Delete a course" << endl;
-        cout << "| 4. Quit" << endl;
+        cout << "| 4. Quit" << endl;    //TODO program does not quit when 4 is selected after using an option
         cin >> choice;
         switch(choice) {
             case 1:
@@ -59,8 +59,10 @@ void Controller::viewCourses() {
     }
     else {
         for(int i=0; i<courses.size();i++) {
+            cout << "| ";
             courses[i]->printCourseInfo();
         }
+        cout << endl;
     }
 }
 void Controller::createCourse() {
@@ -84,7 +86,16 @@ void Controller::createCourse() {
     options();
 }
 void Controller::deleteCourse() {
-
+    int choice;
+    cout << "Which course would you like to delete? Select the number option next to the course listing." << endl;
+    for(int i=0;i<courses.size();i++) { //TODO add quit/never mind option
+        cout << "| " << i << ". ";
+        courses[i]->printCourseInfo();
+    }
+    cout << endl;
+    cin >> choice;
+    courses.erase(courses.begin()+choice);
+    cout << "Course deleted!" << endl;
 }
 
 
