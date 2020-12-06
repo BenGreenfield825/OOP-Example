@@ -11,7 +11,7 @@
 
 class Controller {
 private:
-    vector<Course*> courses;
+    vector<Course*> courses;    //could also use an unordered list data structure, but this is easier in this case
 public:
     Controller();
     void options();
