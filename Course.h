@@ -33,7 +33,7 @@ Course::Course(string courseType, string courseName, double credits, string cour
 }
 
 void Course::printCourseInfo() {
-    cout << courseType << ", " << courseName;
+    cout << courseType << ", " << courseName << ", " << credits << ", " << courseMeetTime << ", " << description << endl;
 }
 
 
